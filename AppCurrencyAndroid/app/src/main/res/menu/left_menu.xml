@@ -42,7 +42,7 @@
                 android:title="@string/txt_send" />
             <item
                 android:id="@+id/drawer_item_setting"
-                android:icon="@android:drawable/ic_menu_manage"
+                android:icon="@drawable/ic_settings_dr"
                 android:title="@string/setting" />
         </menu>
     </item>

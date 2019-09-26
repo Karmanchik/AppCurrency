@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Karman\\AppCurrencyAndroid\\AppCurrencyAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "F:\\github\\AppCurrency\\AppCurrency\\AppCurrencyAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Karman\\AppCurrencyAndroid\\AppCurrencyAndroid\\app\\src\\main\\res\\values-v24\\styles.xml",
+                    "source": "F:\\github\\AppCurrency\\AppCurrency\\AppCurrencyAndroid\\app\\src\\main\\res\\values-v24\\styles.xml",
                     "from": {
                         "startLines": "2,14",
                         "startColumns": "4,4",
@@ -23,24 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Karman\\AppCurrencyAndroid\\AppCurrencyAndroid\\app\\src\\main\\res\\values-v24\\integers.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "44",
-                        "endOffsets": "97"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "44",
-                        "endOffsets": "95"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Karman\\.gradle\\caches\\transforms-2\\files-2.1\\9a39467593168f990dfcbec9d6322e88\\support-media-compat-27.1.1\\res\\values-v24\\values-v24.xml",
+                    "source": "F:\\Users\\KARMAN-PC\\.gradle\\caches\\transforms-2\\files-2.1\\9a39467593168f990dfcbec9d6322e88\\support-media-compat-27.1.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -57,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Karman\\.gradle\\caches\\transforms-2\\files-2.1\\60766a92e10ea112e7ad716d27f62f5a\\appcompat-v7-27.1.1\\res\\values-v24\\values-v24.xml",
+                    "source": "F:\\github\\AppCurrency\\AppCurrency\\AppCurrencyAndroid\\app\\src\\main\\res\\values-v24\\integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "44",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    }
+                },
+                {
+                    "source": "F:\\Users\\KARMAN-PC\\.gradle\\caches\\transforms-2\\files-2.1\\60766a92e10ea112e7ad716d27f62f5a\\appcompat-v7-27.1.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -4,6 +4,7 @@ package com.allerates.appforyou.activities
 import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.content.Intent
+import android.graphics.Color
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
@@ -16,6 +17,7 @@ import com.allerates.appforyou.fragment.*
 import com.allerates.appforyou.helpers.Setting
 import com.allerates.appforyou.helpers.showToast
 import com.allerates.appforyou.helpers.startActivity
+import android.view.Gravity
 
 
 class FragmentsActivity:
@@ -35,6 +37,7 @@ class FragmentsActivity:
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer)
 
+
         navigationView = findViewById(R.id.nav_view)
         navigationView.itemIconTintList = null
         navigationView.setNavigationItemSelectedListener(this)
@@ -43,6 +46,11 @@ class FragmentsActivity:
         val toggle = ActionBarDrawerToggle(
                 this, drawer, findViewById(R.id.toolbar3), R.string.navigation_drawer_open, R.string.navigation_drawer_close)
         drawer.addDrawerListener(toggle)
+        toggle.drawerArrowDrawable.color = Color.WHITE
+        toggle.isDrawerIndicatorEnabled = true
+        toggle.setToolbarNavigationClickListener {
+            drawer.openDrawer(Gravity.START)
+        }
         toggle.syncState()
         val infoBlock = navigationView.getHeaderView(0)
 

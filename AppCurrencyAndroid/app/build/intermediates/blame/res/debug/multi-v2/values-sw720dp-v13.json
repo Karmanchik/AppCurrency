@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Karman\\AppCurrencyAndroid\\AppCurrencyAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "F:\\github\\AppCurrency\\AppCurrency\\AppCurrencyAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Karman\\.gradle\\caches\\transforms-2\\files-2.1\\3bf3616b018ec21f3f32a28d0b232fe9\\mediarouter-v7-25.2.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "F:\\Users\\KARMAN-PC\\.gradle\\caches\\transforms-2\\files-2.1\\3bf3616b018ec21f3f32a28d0b232fe9\\mediarouter-v7-25.2.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
