@@ -1,14 +1,16 @@
 package com.allerates.appforyou.activities
 
+
+import android.app.Activity
 import android.os.Bundle
 import android.support.constraint.ConstraintLayout
-import android.support.v7.app.AppCompatActivity
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import com.allerates.appforyou.R
 import com.allerates.appforyou.helpers.startActivity
 
-class StartActivity : AppCompatActivity() {
+
+class StartActivity: Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

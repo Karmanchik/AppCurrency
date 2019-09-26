@@ -40,9 +40,9 @@ public final class R {
         private id() {}
 
         public static final int fill_parent = 0x7f0900b7;
-        public static final int match_parent = 0x7f090101;
-        public static final int tv_tinted_spinner = 0x7f0901da;
-        public static final int wrap_content = 0x7f0901ec;
+        public static final int match_parent = 0x7f090102;
+        public static final int tv_tinted_spinner = 0x7f0901db;
+        public static final int wrap_content = 0x7f0901ed;
     }
     public static final class layout {
         private layout() {}

@@ -18,15 +18,15 @@ data class UserInfoResult (
 )
 
 class UserInfo(
-    var exName: String,
-    var exImage: String,
-    var exUserID: String,
-    var userPhone: String,
-    var exMail: String,
-    var mainCurrency: String,
-    var auth_key: String,
-    var activateUser: String,
-    var surName: String
+    var ExName: String,
+    var ExImage: String,
+    var ExUserID: String,
+    var UserPhone: String,
+    var ExMail: String,
+    var MainCurrency: String,
+    var Auth_key: String,
+    var ActivateUser: String,
+    var SurName: String
 )
 
 data class SendRecoveryMailResult(

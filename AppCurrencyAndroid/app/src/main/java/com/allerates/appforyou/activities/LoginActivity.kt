@@ -4,12 +4,14 @@ package com.allerates.appforyou.activities
 import android.os.Bundle
 import android.support.design.widget.TextInputEditText
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.view.View
 import com.allerates.appforyou.R
 import com.allerates.appforyou.helpers.*
 import com.allerates.appforyou.model.UserInfoResult
 import com.google.android.gms.common.api.GoogleApiClient
 import com.google.firebase.auth.FirebaseAuth
+import com.google.gson.Gson
 import com.google.gson.JsonElement
 import retrofit2.Call
 import retrofit2.Callback
@@ -27,10 +29,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         supportActionBar!!.hide()
-    }
 
-    private fun initGoogleAuthComponent() {
-
+        emailEditText = findViewById(R.id.textInputEditTextEmail)
+        passwordEditText = findViewById(R.id.textInputEditTextPassword)
     }
 
     fun toGoogleClick(btn: View) {
@@ -56,8 +57,14 @@ class LoginActivity : AppCompatActivity() {
                 if (response.isSuccessful) {
                     val result = response.body()!!
                     if (isValidJson(result.toString(), UserInfoResult::class.java)) {
-
-                        //startActivity()
+                        val info = Gson().fromJson(result.toString(), UserInfoResult::class.java)
+                        val setting = Setting(this@LoginActivity)
+                        //setting.userLogin.set(info.query_content[0].surName)
+                        Log.e(TAG, info.query_content[0].ExMail)
+                        setting.userMail.set(info.query_content[0].ExMail)
+                        setting.phone.set(info.query_content[0].UserPhone)
+                        setting.isLogged.set(true)
+                        startActivity(FragmentsActivity::class.java)
                     }
                 }
             }
@@ -81,8 +88,4 @@ class LoginActivity : AppCompatActivity() {
         return false
     }
 
-    private fun clearForm() {
-        emailEditText.text.clear()
-        passwordEditText.text.clear()
-    }
 }

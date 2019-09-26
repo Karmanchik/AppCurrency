@@ -1,5 +1,6 @@
 package com.allerates.appforyou.activities
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.TextInputEditText
@@ -27,7 +28,7 @@ class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
-        supportActionBar!!.hide()
+                //supportActionBar!!.hide()
 
         nameEditText = findViewById(R.id.textInputEditTextName)
         emailEditText = findViewById(R.id.textInputEditTextEmail)

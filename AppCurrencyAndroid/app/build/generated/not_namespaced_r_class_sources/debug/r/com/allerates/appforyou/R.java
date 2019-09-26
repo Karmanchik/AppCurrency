@@ -2698,9 +2698,10 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      */
     public static final int layout_optimizationLevel=0x7f04014d;
@@ -5438,295 +5439,296 @@ public final class R {
     public static final int googleplacesearch=0x7f0900ca;
     public static final int grayscale=0x7f0900cb;
     public static final int grid_view=0x7f0900cc;
-    public static final int holo_dark=0x7f0900cd;
-    public static final int holo_light=0x7f0900ce;
-    public static final int home=0x7f0900cf;
-    public static final int homeAsUp=0x7f0900d0;
-    public static final int html=0x7f0900d1;
-    public static final int hybrid=0x7f0900d2;
-    public static final int ic_menu=0x7f0900d3;
-    public static final int icon=0x7f0900d4;
-    public static final int icon_group=0x7f0900d5;
-    public static final int icon_only=0x7f0900d6;
-    public static final int icon_uri=0x7f0900d7;
-    public static final int icon_view=0x7f0900d8;
-    public static final int ifRoom=0x7f0900d9;
-    public static final int image=0x7f0900da;
-    public static final int imageView=0x7f0900db;
-    public static final int img_back=0x7f0900dc;
-    public static final int img_user=0x7f0900dd;
-    public static final int in_lay=0x7f0900de;
-    public static final int index_entity_types=0x7f0900df;
-    public static final int info=0x7f0900e0;
-    public static final int instant_message=0x7f0900e1;
-    public static final int intent_action=0x7f0900e2;
-    public static final int intent_activity=0x7f0900e3;
-    public static final int intent_data=0x7f0900e4;
-    public static final int intent_data_id=0x7f0900e5;
-    public static final int intent_extra_data=0x7f0900e6;
-    public static final int invisible=0x7f0900e7;
-    public static final int italic=0x7f0900e8;
-    public static final int item_touch_helper_previous_elevation=0x7f0900e9;
-    public static final int largeLabel=0x7f0900ea;
-    public static final int large_icon_uri=0x7f0900eb;
-    public static final int layout_root=0x7f0900ec;
-    public static final int left=0x7f0900ed;
-    public static final int light=0x7f0900ee;
-    public static final int lin_di=0x7f0900ef;
-    public static final int line1=0x7f0900f0;
-    public static final int line3=0x7f0900f1;
-    public static final int liner=0x7f0900f2;
-    public static final int liner_top=0x7f0900f3;
-    public static final int list=0x7f0900f4;
-    public static final int listMode=0x7f0900f5;
-    public static final int list_item=0x7f0900f6;
-    public static final int live_stream_indicator=0x7f0900f7;
-    public static final int live_stream_seek_bar=0x7f0900f8;
-    public static final int lnr_comment=0x7f0900f9;
-    public static final int lnr_top=0x7f0900fa;
-    public static final int loading_indicator=0x7f0900fb;
-    public static final int log_in_tv=0x7f0900fc;
-    public static final int logo_only=0x7f0900fd;
-    public static final int map=0x7f0900fe;
-    public static final int masked=0x7f0900ff;
-    public static final int match_global_nicknames=0x7f090100;
-    public static final int match_parent=0x7f090101;
-    public static final int media_actions=0x7f090102;
-    public static final int message=0x7f090103;
-    public static final int middle=0x7f090104;
-    public static final int mini=0x7f090105;
-    public static final int money_to_money=0x7f090106;
-    public static final int monochrome=0x7f090107;
-    public static final int mr_art=0x7f090108;
-    public static final int mr_chooser_list=0x7f090109;
-    public static final int mr_chooser_route_desc=0x7f09010a;
-    public static final int mr_chooser_route_icon=0x7f09010b;
-    public static final int mr_chooser_route_name=0x7f09010c;
-    public static final int mr_chooser_title=0x7f09010d;
-    public static final int mr_close=0x7f09010e;
-    public static final int mr_control_divider=0x7f09010f;
-    public static final int mr_control_play_pause=0x7f090110;
-    public static final int mr_control_subtitle=0x7f090111;
-    public static final int mr_control_title=0x7f090112;
-    public static final int mr_control_title_container=0x7f090113;
-    public static final int mr_custom_control=0x7f090114;
-    public static final int mr_default_control=0x7f090115;
-    public static final int mr_dialog_area=0x7f090116;
-    public static final int mr_expandable_area=0x7f090117;
-    public static final int mr_group_expand_collapse=0x7f090118;
-    public static final int mr_media_main_control=0x7f090119;
-    public static final int mr_name=0x7f09011a;
-    public static final int mr_playback_control=0x7f09011b;
-    public static final int mr_title_bar=0x7f09011c;
-    public static final int mr_volume_control=0x7f09011d;
-    public static final int mr_volume_group_list=0x7f09011e;
-    public static final int mr_volume_item_icon=0x7f09011f;
-    public static final int mr_volume_slider=0x7f090120;
-    public static final int multiply=0x7f090121;
-    public static final int name=0x7f090122;
-    public static final int nav_title=0x7f090123;
-    public static final int nav_view=0x7f090124;
-    public static final int navigation_header_container=0x7f090125;
-    public static final int never=0x7f090126;
-    public static final int none=0x7f090127;
-    public static final int normal=0x7f090128;
-    public static final int notification_background=0x7f090129;
-    public static final int notification_main_column=0x7f09012a;
-    public static final int notification_main_column_container=0x7f09012b;
-    public static final int omnibox_title_section=0x7f09012c;
-    public static final int omnibox_url_section=0x7f09012d;
-    public static final int open_map=0x7f09012e;
-    public static final int packed=0x7f09012f;
-    public static final int parallax=0x7f090130;
-    public static final int parent=0x7f090131;
-    public static final int parentPanel=0x7f090132;
-    public static final int parent_matrix=0x7f090133;
-    public static final int percent=0x7f090134;
-    public static final int pin=0x7f090135;
-    public static final int place_autocomplete_clear_button=0x7f090136;
-    public static final int place_autocomplete_powered_by_google=0x7f090137;
-    public static final int place_autocomplete_prediction_primary_text=0x7f090138;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f090139;
-    public static final int place_autocomplete_progress=0x7f09013a;
-    public static final int place_autocomplete_search_button=0x7f09013b;
-    public static final int place_autocomplete_search_input=0x7f09013c;
-    public static final int place_autocomplete_separator=0x7f09013d;
-    public static final int plain=0x7f09013e;
-    public static final int production=0x7f09013f;
-    public static final int progress=0x7f090140;
-    public static final int progressBar=0x7f090141;
-    public static final int progress_circular=0x7f090142;
-    public static final int progress_horizontal=0x7f090143;
-    public static final int radio=0x7f090144;
-    public static final int ratingBar=0x7f090145;
-    public static final int rating_point=0x7f090146;
-    public static final int recycler_view=0x7f090147;
-    public static final int recycler_view_comment=0x7f090148;
-    public static final int refresh=0x7f090149;
-    public static final int refresh_list=0x7f09014a;
-    public static final int rel=0x7f09014b;
-    public static final int result_view=0x7f09014c;
-    public static final int reviews_card=0x7f09014d;
-    public static final int reviews_card_ins=0x7f09014e;
-    public static final int reviews_card_view=0x7f09014f;
-    public static final int rfc822=0x7f090150;
-    public static final int right=0x7f090151;
-    public static final int right_icon=0x7f090152;
-    public static final int right_side=0x7f090153;
-    public static final int rl_fragm=0x7f090154;
-    public static final int sandbox=0x7f090155;
-    public static final int satellite=0x7f090156;
-    public static final int save_image_matrix=0x7f090157;
-    public static final int save_non_transition_alpha=0x7f090158;
-    public static final int save_scale_type=0x7f090159;
-    public static final int screen=0x7f09015a;
-    public static final int scroll=0x7f09015b;
-    public static final int scrollIndicatorDown=0x7f09015c;
-    public static final int scrollIndicatorUp=0x7f09015d;
-    public static final int scrollView=0x7f09015e;
-    public static final int scrollable=0x7f09015f;
-    public static final int search_badge=0x7f090160;
-    public static final int search_bar=0x7f090161;
-    public static final int search_button=0x7f090162;
-    public static final int search_close_btn=0x7f090163;
-    public static final int search_edit_frame=0x7f090164;
-    public static final int search_go_btn=0x7f090165;
-    public static final int search_mag_icon=0x7f090166;
-    public static final int search_plate=0x7f090167;
-    public static final int search_src_text=0x7f090168;
-    public static final int search_voice_btn=0x7f090169;
-    public static final int section_convert=0x7f09016a;
-    public static final int section_text=0x7f09016b;
-    public static final int section_text_ins=0x7f09016c;
-    public static final int section_text_ins2=0x7f09016d;
-    public static final int seek_bar=0x7f09016e;
-    public static final int seek_bar_controls=0x7f09016f;
-    public static final int select_dialog_listview=0x7f090170;
-    public static final int selectionDetails=0x7f090171;
-    public static final int send=0x7f090172;
-    public static final int set_currency_button=0x7f090173;
-    public static final int shortcut=0x7f090174;
-    public static final int showCustom=0x7f090175;
-    public static final int showHome=0x7f090176;
-    public static final int showTitle=0x7f090177;
-    public static final int site=0x7f090178;
-    public static final int slide=0x7f090179;
-    public static final int smallLabel=0x7f09017a;
-    public static final int snackbar_action=0x7f09017b;
-    public static final int snackbar_text=0x7f09017c;
-    public static final int snap=0x7f09017d;
-    public static final int spacer=0x7f09017e;
-    public static final int spinner=0x7f09017f;
-    public static final int split_action_bar=0x7f090180;
-    public static final int spread=0x7f090181;
-    public static final int spread_inside=0x7f090182;
-    public static final int src_atop=0x7f090183;
-    public static final int src_in=0x7f090184;
-    public static final int src_over=0x7f090185;
-    public static final int standard=0x7f090186;
-    public static final int start=0x7f090187;
-    public static final int start_layout=0x7f090188;
-    public static final int start_text=0x7f090189;
-    public static final int status_bar_latest_event_content=0x7f09018a;
-    public static final int status_text=0x7f09018b;
-    public static final int strict_sandbox=0x7f09018c;
-    public static final int submenuarrow=0x7f09018d;
-    public static final int submit_area=0x7f09018e;
-    public static final int subtitle_view=0x7f09018f;
-    public static final int swipe_refresh_layout=0x7f090190;
-    public static final int tabMode=0x7f090191;
-    public static final int tab_host=0x7f090192;
-    public static final int tag_transition_group=0x7f090193;
-    public static final int terrain=0x7f090194;
-    public static final int test=0x7f090195;
-    public static final int test_dialog=0x7f090196;
-    public static final int text=0x7f090197;
-    public static final int text1=0x7f090198;
-    public static final int text2=0x7f090199;
-    public static final int textInputEditTextConfirmPassword=0x7f09019a;
-    public static final int textInputEditTextEmail=0x7f09019b;
-    public static final int textInputEditTextName=0x7f09019c;
-    public static final int textInputEditTextPassword=0x7f09019d;
-    public static final int textSpacerNoButtons=0x7f09019e;
-    public static final int textSpacerNoTitle=0x7f09019f;
-    public static final int textTitle=0x7f0901a0;
-    public static final int textToast=0x7f0901a1;
-    public static final int textView=0x7f0901a2;
-    public static final int textView20=0x7f0901a3;
-    public static final int textView223=0x7f0901a4;
-    public static final int textView224=0x7f0901a5;
-    public static final int textView3=0x7f0901a6;
-    public static final int textView6=0x7f0901a7;
-    public static final int textViewEmail=0x7f0901a8;
-    public static final int textViewName=0x7f0901a9;
-    public static final int textViewPassword=0x7f0901aa;
-    public static final int text_comment=0x7f0901ab;
-    public static final int text_input_password_toggle=0x7f0901ac;
-    public static final int text_list_view=0x7f0901ad;
-    public static final int text_view_title=0x7f0901ae;
-    public static final int textinput_counter=0x7f0901af;
-    public static final int textinput_error=0x7f0901b0;
-    public static final int textpart=0x7f0901b1;
-    public static final int thing_proto=0x7f0901b2;
-    public static final int time=0x7f0901b3;
-    public static final int timerBar=0x7f0901b4;
-    public static final int title=0x7f0901b5;
-    public static final int titleDividerNoCustom=0x7f0901b6;
-    public static final int title_template=0x7f0901b7;
-    public static final int title_view=0x7f0901b8;
-    public static final int toSpinner=0x7f0901b9;
-    public static final int toTextView=0x7f0901ba;
-    public static final int to_button=0x7f0901bb;
-    public static final int to_day_week=0x7f0901bc;
-    public static final int to_txt=0x7f0901bd;
-    public static final int toast_layout_root=0x7f0901be;
-    public static final int toolbar=0x7f0901bf;
-    public static final int toolbar2=0x7f0901c0;
-    public static final int toolbar3=0x7f0901c1;
-    public static final int toolbar_high_level_activity=0x7f0901c2;
-    public static final int top=0x7f0901c3;
-    public static final int topPanel=0x7f0901c4;
-    public static final int touch_outside=0x7f0901c5;
-    public static final int transition_current_scene=0x7f0901c6;
-    public static final int transition_layout_save=0x7f0901c7;
-    public static final int transition_position=0x7f0901c8;
-    public static final int transition_scene_layoutid_cache=0x7f0901c9;
-    public static final int transition_transform=0x7f0901ca;
-    public static final int tv_about=0x7f0901cb;
-    public static final int tv_add_new_exchange=0x7f0901cc;
-    public static final int tv_additional_information=0x7f0901cd;
-    public static final int tv_address=0x7f0901ce;
-    public static final int tv_address2=0x7f0901cf;
-    public static final int tv_currencies=0x7f0901d0;
-    public static final int tv_currency=0x7f0901d1;
-    public static final int tv_currency2=0x7f0901d2;
-    public static final int tv_days_of_work=0x7f0901d3;
-    public static final int tv_gmail=0x7f0901d4;
-    public static final int tv_google_suggestions=0x7f0901d5;
-    public static final int tv_name=0x7f0901d6;
-    public static final int tv_number=0x7f0901d7;
-    public static final int tv_rate=0x7f0901d8;
-    public static final int tv_site=0x7f0901d9;
-    public static final int tv_tinted_spinner=0x7f0901da;
-    public static final int tv_to_time=0x7f0901db;
-    public static final int tv_work_time=0x7f0901dc;
-    public static final int txt_dia=0x7f0901dd;
-    public static final int txt_to_time=0x7f0901de;
-    public static final int uniform=0x7f0901df;
-    public static final int up=0x7f0901e0;
-    public static final int url=0x7f0901e1;
-    public static final int useLogo=0x7f0901e2;
-    public static final int view_offset_helper=0x7f0901e3;
-    public static final int visible=0x7f0901e4;
-    public static final int volume_item_container=0x7f0901e5;
-    public static final int webView=0x7f0901e6;
-    public static final int webview=0x7f0901e7;
-    public static final int wide=0x7f0901e8;
-    public static final int window=0x7f0901e9;
-    public static final int withText=0x7f0901ea;
-    public static final int wrap=0x7f0901eb;
-    public static final int wrap_content=0x7f0901ec;
-    public static final int year=0x7f0901ed;
+    public static final int groups=0x7f0900cd;
+    public static final int holo_dark=0x7f0900ce;
+    public static final int holo_light=0x7f0900cf;
+    public static final int home=0x7f0900d0;
+    public static final int homeAsUp=0x7f0900d1;
+    public static final int html=0x7f0900d2;
+    public static final int hybrid=0x7f0900d3;
+    public static final int ic_menu=0x7f0900d4;
+    public static final int icon=0x7f0900d5;
+    public static final int icon_group=0x7f0900d6;
+    public static final int icon_only=0x7f0900d7;
+    public static final int icon_uri=0x7f0900d8;
+    public static final int icon_view=0x7f0900d9;
+    public static final int ifRoom=0x7f0900da;
+    public static final int image=0x7f0900db;
+    public static final int imageView=0x7f0900dc;
+    public static final int img_back=0x7f0900dd;
+    public static final int img_user=0x7f0900de;
+    public static final int in_lay=0x7f0900df;
+    public static final int index_entity_types=0x7f0900e0;
+    public static final int info=0x7f0900e1;
+    public static final int instant_message=0x7f0900e2;
+    public static final int intent_action=0x7f0900e3;
+    public static final int intent_activity=0x7f0900e4;
+    public static final int intent_data=0x7f0900e5;
+    public static final int intent_data_id=0x7f0900e6;
+    public static final int intent_extra_data=0x7f0900e7;
+    public static final int invisible=0x7f0900e8;
+    public static final int italic=0x7f0900e9;
+    public static final int item_touch_helper_previous_elevation=0x7f0900ea;
+    public static final int largeLabel=0x7f0900eb;
+    public static final int large_icon_uri=0x7f0900ec;
+    public static final int layout_root=0x7f0900ed;
+    public static final int left=0x7f0900ee;
+    public static final int light=0x7f0900ef;
+    public static final int lin_di=0x7f0900f0;
+    public static final int line1=0x7f0900f1;
+    public static final int line3=0x7f0900f2;
+    public static final int liner=0x7f0900f3;
+    public static final int liner_top=0x7f0900f4;
+    public static final int list=0x7f0900f5;
+    public static final int listMode=0x7f0900f6;
+    public static final int list_item=0x7f0900f7;
+    public static final int live_stream_indicator=0x7f0900f8;
+    public static final int live_stream_seek_bar=0x7f0900f9;
+    public static final int lnr_comment=0x7f0900fa;
+    public static final int lnr_top=0x7f0900fb;
+    public static final int loading_indicator=0x7f0900fc;
+    public static final int log_in_tv=0x7f0900fd;
+    public static final int logo_only=0x7f0900fe;
+    public static final int map=0x7f0900ff;
+    public static final int masked=0x7f090100;
+    public static final int match_global_nicknames=0x7f090101;
+    public static final int match_parent=0x7f090102;
+    public static final int media_actions=0x7f090103;
+    public static final int message=0x7f090104;
+    public static final int middle=0x7f090105;
+    public static final int mini=0x7f090106;
+    public static final int money_to_money=0x7f090107;
+    public static final int monochrome=0x7f090108;
+    public static final int mr_art=0x7f090109;
+    public static final int mr_chooser_list=0x7f09010a;
+    public static final int mr_chooser_route_desc=0x7f09010b;
+    public static final int mr_chooser_route_icon=0x7f09010c;
+    public static final int mr_chooser_route_name=0x7f09010d;
+    public static final int mr_chooser_title=0x7f09010e;
+    public static final int mr_close=0x7f09010f;
+    public static final int mr_control_divider=0x7f090110;
+    public static final int mr_control_play_pause=0x7f090111;
+    public static final int mr_control_subtitle=0x7f090112;
+    public static final int mr_control_title=0x7f090113;
+    public static final int mr_control_title_container=0x7f090114;
+    public static final int mr_custom_control=0x7f090115;
+    public static final int mr_default_control=0x7f090116;
+    public static final int mr_dialog_area=0x7f090117;
+    public static final int mr_expandable_area=0x7f090118;
+    public static final int mr_group_expand_collapse=0x7f090119;
+    public static final int mr_media_main_control=0x7f09011a;
+    public static final int mr_name=0x7f09011b;
+    public static final int mr_playback_control=0x7f09011c;
+    public static final int mr_title_bar=0x7f09011d;
+    public static final int mr_volume_control=0x7f09011e;
+    public static final int mr_volume_group_list=0x7f09011f;
+    public static final int mr_volume_item_icon=0x7f090120;
+    public static final int mr_volume_slider=0x7f090121;
+    public static final int multiply=0x7f090122;
+    public static final int name=0x7f090123;
+    public static final int nav_title=0x7f090124;
+    public static final int nav_view=0x7f090125;
+    public static final int navigation_header_container=0x7f090126;
+    public static final int never=0x7f090127;
+    public static final int none=0x7f090128;
+    public static final int normal=0x7f090129;
+    public static final int notification_background=0x7f09012a;
+    public static final int notification_main_column=0x7f09012b;
+    public static final int notification_main_column_container=0x7f09012c;
+    public static final int omnibox_title_section=0x7f09012d;
+    public static final int omnibox_url_section=0x7f09012e;
+    public static final int open_map=0x7f09012f;
+    public static final int packed=0x7f090130;
+    public static final int parallax=0x7f090131;
+    public static final int parent=0x7f090132;
+    public static final int parentPanel=0x7f090133;
+    public static final int parent_matrix=0x7f090134;
+    public static final int percent=0x7f090135;
+    public static final int pin=0x7f090136;
+    public static final int place_autocomplete_clear_button=0x7f090137;
+    public static final int place_autocomplete_powered_by_google=0x7f090138;
+    public static final int place_autocomplete_prediction_primary_text=0x7f090139;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f09013a;
+    public static final int place_autocomplete_progress=0x7f09013b;
+    public static final int place_autocomplete_search_button=0x7f09013c;
+    public static final int place_autocomplete_search_input=0x7f09013d;
+    public static final int place_autocomplete_separator=0x7f09013e;
+    public static final int plain=0x7f09013f;
+    public static final int production=0x7f090140;
+    public static final int progress=0x7f090141;
+    public static final int progressBar=0x7f090142;
+    public static final int progress_circular=0x7f090143;
+    public static final int progress_horizontal=0x7f090144;
+    public static final int radio=0x7f090145;
+    public static final int ratingBar=0x7f090146;
+    public static final int rating_point=0x7f090147;
+    public static final int recycler_view=0x7f090148;
+    public static final int recycler_view_comment=0x7f090149;
+    public static final int refresh=0x7f09014a;
+    public static final int refresh_list=0x7f09014b;
+    public static final int rel=0x7f09014c;
+    public static final int result_view=0x7f09014d;
+    public static final int reviews_card=0x7f09014e;
+    public static final int reviews_card_ins=0x7f09014f;
+    public static final int reviews_card_view=0x7f090150;
+    public static final int rfc822=0x7f090151;
+    public static final int right=0x7f090152;
+    public static final int right_icon=0x7f090153;
+    public static final int right_side=0x7f090154;
+    public static final int rl_fragm=0x7f090155;
+    public static final int sandbox=0x7f090156;
+    public static final int satellite=0x7f090157;
+    public static final int save_image_matrix=0x7f090158;
+    public static final int save_non_transition_alpha=0x7f090159;
+    public static final int save_scale_type=0x7f09015a;
+    public static final int screen=0x7f09015b;
+    public static final int scroll=0x7f09015c;
+    public static final int scrollIndicatorDown=0x7f09015d;
+    public static final int scrollIndicatorUp=0x7f09015e;
+    public static final int scrollView=0x7f09015f;
+    public static final int scrollable=0x7f090160;
+    public static final int search_badge=0x7f090161;
+    public static final int search_bar=0x7f090162;
+    public static final int search_button=0x7f090163;
+    public static final int search_close_btn=0x7f090164;
+    public static final int search_edit_frame=0x7f090165;
+    public static final int search_go_btn=0x7f090166;
+    public static final int search_mag_icon=0x7f090167;
+    public static final int search_plate=0x7f090168;
+    public static final int search_src_text=0x7f090169;
+    public static final int search_voice_btn=0x7f09016a;
+    public static final int section_convert=0x7f09016b;
+    public static final int section_text=0x7f09016c;
+    public static final int section_text_ins=0x7f09016d;
+    public static final int section_text_ins2=0x7f09016e;
+    public static final int seek_bar=0x7f09016f;
+    public static final int seek_bar_controls=0x7f090170;
+    public static final int select_dialog_listview=0x7f090171;
+    public static final int selectionDetails=0x7f090172;
+    public static final int send=0x7f090173;
+    public static final int set_currency_button=0x7f090174;
+    public static final int shortcut=0x7f090175;
+    public static final int showCustom=0x7f090176;
+    public static final int showHome=0x7f090177;
+    public static final int showTitle=0x7f090178;
+    public static final int site=0x7f090179;
+    public static final int slide=0x7f09017a;
+    public static final int smallLabel=0x7f09017b;
+    public static final int snackbar_action=0x7f09017c;
+    public static final int snackbar_text=0x7f09017d;
+    public static final int snap=0x7f09017e;
+    public static final int spacer=0x7f09017f;
+    public static final int spinner=0x7f090180;
+    public static final int split_action_bar=0x7f090181;
+    public static final int spread=0x7f090182;
+    public static final int spread_inside=0x7f090183;
+    public static final int src_atop=0x7f090184;
+    public static final int src_in=0x7f090185;
+    public static final int src_over=0x7f090186;
+    public static final int standard=0x7f090187;
+    public static final int start=0x7f090188;
+    public static final int start_layout=0x7f090189;
+    public static final int start_text=0x7f09018a;
+    public static final int status_bar_latest_event_content=0x7f09018b;
+    public static final int status_text=0x7f09018c;
+    public static final int strict_sandbox=0x7f09018d;
+    public static final int submenuarrow=0x7f09018e;
+    public static final int submit_area=0x7f09018f;
+    public static final int subtitle_view=0x7f090190;
+    public static final int swipe_refresh_layout=0x7f090191;
+    public static final int tabMode=0x7f090192;
+    public static final int tab_host=0x7f090193;
+    public static final int tag_transition_group=0x7f090194;
+    public static final int terrain=0x7f090195;
+    public static final int test=0x7f090196;
+    public static final int test_dialog=0x7f090197;
+    public static final int text=0x7f090198;
+    public static final int text1=0x7f090199;
+    public static final int text2=0x7f09019a;
+    public static final int textInputEditTextConfirmPassword=0x7f09019b;
+    public static final int textInputEditTextEmail=0x7f09019c;
+    public static final int textInputEditTextName=0x7f09019d;
+    public static final int textInputEditTextPassword=0x7f09019e;
+    public static final int textSpacerNoButtons=0x7f09019f;
+    public static final int textSpacerNoTitle=0x7f0901a0;
+    public static final int textTitle=0x7f0901a1;
+    public static final int textToast=0x7f0901a2;
+    public static final int textView=0x7f0901a3;
+    public static final int textView20=0x7f0901a4;
+    public static final int textView223=0x7f0901a5;
+    public static final int textView224=0x7f0901a6;
+    public static final int textView3=0x7f0901a7;
+    public static final int textView6=0x7f0901a8;
+    public static final int textViewEmail=0x7f0901a9;
+    public static final int textViewName=0x7f0901aa;
+    public static final int textViewPassword=0x7f0901ab;
+    public static final int text_comment=0x7f0901ac;
+    public static final int text_input_password_toggle=0x7f0901ad;
+    public static final int text_list_view=0x7f0901ae;
+    public static final int text_view_title=0x7f0901af;
+    public static final int textinput_counter=0x7f0901b0;
+    public static final int textinput_error=0x7f0901b1;
+    public static final int textpart=0x7f0901b2;
+    public static final int thing_proto=0x7f0901b3;
+    public static final int time=0x7f0901b4;
+    public static final int timerBar=0x7f0901b5;
+    public static final int title=0x7f0901b6;
+    public static final int titleDividerNoCustom=0x7f0901b7;
+    public static final int title_template=0x7f0901b8;
+    public static final int title_view=0x7f0901b9;
+    public static final int toSpinner=0x7f0901ba;
+    public static final int toTextView=0x7f0901bb;
+    public static final int to_button=0x7f0901bc;
+    public static final int to_day_week=0x7f0901bd;
+    public static final int to_txt=0x7f0901be;
+    public static final int toast_layout_root=0x7f0901bf;
+    public static final int toolbar=0x7f0901c0;
+    public static final int toolbar2=0x7f0901c1;
+    public static final int toolbar3=0x7f0901c2;
+    public static final int toolbar_high_level_activity=0x7f0901c3;
+    public static final int top=0x7f0901c4;
+    public static final int topPanel=0x7f0901c5;
+    public static final int touch_outside=0x7f0901c6;
+    public static final int transition_current_scene=0x7f0901c7;
+    public static final int transition_layout_save=0x7f0901c8;
+    public static final int transition_position=0x7f0901c9;
+    public static final int transition_scene_layoutid_cache=0x7f0901ca;
+    public static final int transition_transform=0x7f0901cb;
+    public static final int tv_about=0x7f0901cc;
+    public static final int tv_add_new_exchange=0x7f0901cd;
+    public static final int tv_additional_information=0x7f0901ce;
+    public static final int tv_address=0x7f0901cf;
+    public static final int tv_address2=0x7f0901d0;
+    public static final int tv_currencies=0x7f0901d1;
+    public static final int tv_currency=0x7f0901d2;
+    public static final int tv_currency2=0x7f0901d3;
+    public static final int tv_days_of_work=0x7f0901d4;
+    public static final int tv_gmail=0x7f0901d5;
+    public static final int tv_google_suggestions=0x7f0901d6;
+    public static final int tv_name=0x7f0901d7;
+    public static final int tv_number=0x7f0901d8;
+    public static final int tv_rate=0x7f0901d9;
+    public static final int tv_site=0x7f0901da;
+    public static final int tv_tinted_spinner=0x7f0901db;
+    public static final int tv_to_time=0x7f0901dc;
+    public static final int tv_work_time=0x7f0901dd;
+    public static final int txt_dia=0x7f0901de;
+    public static final int txt_to_time=0x7f0901df;
+    public static final int uniform=0x7f0901e0;
+    public static final int up=0x7f0901e1;
+    public static final int url=0x7f0901e2;
+    public static final int useLogo=0x7f0901e3;
+    public static final int view_offset_helper=0x7f0901e4;
+    public static final int visible=0x7f0901e5;
+    public static final int volume_item_container=0x7f0901e6;
+    public static final int webView=0x7f0901e7;
+    public static final int webview=0x7f0901e8;
+    public static final int wide=0x7f0901e9;
+    public static final int window=0x7f0901ea;
+    public static final int withText=0x7f0901eb;
+    public static final int wrap=0x7f0901ec;
+    public static final int wrap_content=0x7f0901ed;
+    public static final int year=0x7f0901ee;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;
@@ -12314,9 +12316,10 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
      * @attr name com.allerates.appforyou:layout_optimizationLevel
@@ -12383,6 +12386,10 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minHeight android:minHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
@@ -12397,6 +12404,10 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.allerates.appforyou:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.allerates.appforyou:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.allerates.appforyou:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.allerates.appforyou:constraint_referenced_ids}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.allerates.appforyou:layout_constrainedHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.allerates.appforyou:layout_constrainedWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.allerates.appforyou:layout_constraintBaseline_creator}</code></td><td></td></tr>
@@ -12456,6 +12467,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginTop
      * @see #ConstraintSet_android_layout_marginRight
      * @see #ConstraintSet_android_layout_marginBottom
+     * @see #ConstraintSet_android_maxWidth
+     * @see #ConstraintSet_android_maxHeight
+     * @see #ConstraintSet_android_minWidth
+     * @see #ConstraintSet_android_minHeight
      * @see #ConstraintSet_android_alpha
      * @see #ConstraintSet_android_transformPivotX
      * @see #ConstraintSet_android_transformPivotY
@@ -12470,6 +12485,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginEnd
      * @see #ConstraintSet_android_translationZ
      * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_barrierAllowsGoneWidgets
+     * @see #ConstraintSet_barrierDirection
+     * @see #ConstraintSet_chainUseRtl
+     * @see #ConstraintSet_constraint_referenced_ids
      * @see #ConstraintSet_layout_constrainedHeight
      * @see #ConstraintSet_layout_constrainedWidth
      * @see #ConstraintSet_layout_constraintBaseline_creator
@@ -12523,10 +12542,12 @@ public final class R {
     public static final int[] ConstraintSet={
       0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
       0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
-      0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
+      0x010100fa, 0x0101011f, 0x01010120, 0x0101013f, 
+      0x01010140, 0x0101031f, 0x01010320, 0x01010321, 
       0x01010322, 0x01010323, 0x01010324, 0x01010325, 
       0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
-      0x010103b6, 0x010103fa, 0x01010440, 0x7f040119, 
+      0x010103b6, 0x010103fa, 0x01010440, 0x7f04003d, 
+      0x7f04003e, 0x7f040085, 0x7f0400a1, 0x7f040119, 
       0x7f04011a, 0x7f04011b, 0x7f04011c, 0x7f04011d, 
       0x7f04011e, 0x7f04011f, 0x7f040120, 0x7f040121, 
       0x7f040122, 0x7f040123, 0x7f040124, 0x7f040125, 
@@ -12686,6 +12707,58 @@ public final class R {
      */
     public static final int ConstraintSet_android_layout_marginBottom=8;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintSet_android_maxWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintSet_android_maxHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintSet_android_minWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintSet_android_minHeight=12;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -12693,7 +12766,7 @@ public final class R {
      *
      * @attr name android:alpha
      */
-    public static final int ConstraintSet_android_alpha=9;
+    public static final int ConstraintSet_android_alpha=13;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12706,7 +12779,7 @@ public final class R {
      *
      * @attr name android:transformPivotX
      */
-    public static final int ConstraintSet_android_transformPivotX=10;
+    public static final int ConstraintSet_android_transformPivotX=14;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12719,7 +12792,7 @@ public final class R {
      *
      * @attr name android:transformPivotY
      */
-    public static final int ConstraintSet_android_transformPivotY=11;
+    public static final int ConstraintSet_android_transformPivotY=15;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12732,7 +12805,7 @@ public final class R {
      *
      * @attr name android:translationX
      */
-    public static final int ConstraintSet_android_translationX=12;
+    public static final int ConstraintSet_android_translationX=16;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12745,7 +12818,7 @@ public final class R {
      *
      * @attr name android:translationY
      */
-    public static final int ConstraintSet_android_translationY=13;
+    public static final int ConstraintSet_android_translationY=17;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12754,7 +12827,7 @@ public final class R {
      *
      * @attr name android:scaleX
      */
-    public static final int ConstraintSet_android_scaleX=14;
+    public static final int ConstraintSet_android_scaleX=18;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12763,7 +12836,7 @@ public final class R {
      *
      * @attr name android:scaleY
      */
-    public static final int ConstraintSet_android_scaleY=15;
+    public static final int ConstraintSet_android_scaleY=19;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12772,7 +12845,7 @@ public final class R {
      *
      * @attr name android:rotation
      */
-    public static final int ConstraintSet_android_rotation=16;
+    public static final int ConstraintSet_android_rotation=20;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12781,7 +12854,7 @@ public final class R {
      *
      * @attr name android:rotationX
      */
-    public static final int ConstraintSet_android_rotationX=17;
+    public static final int ConstraintSet_android_rotationX=21;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12790,7 +12863,7 @@ public final class R {
      *
      * @attr name android:rotationY
      */
-    public static final int ConstraintSet_android_rotationY=18;
+    public static final int ConstraintSet_android_rotationY=22;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12803,7 +12876,7 @@ public final class R {
      *
      * @attr name android:layout_marginStart
      */
-    public static final int ConstraintSet_android_layout_marginStart=19;
+    public static final int ConstraintSet_android_layout_marginStart=23;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12816,7 +12889,7 @@ public final class R {
      *
      * @attr name android:layout_marginEnd
      */
-    public static final int ConstraintSet_android_layout_marginEnd=20;
+    public static final int ConstraintSet_android_layout_marginEnd=24;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12829,7 +12902,7 @@ public final class R {
      *
      * @attr name android:translationZ
      */
-    public static final int ConstraintSet_android_translationZ=21;
+    public static final int ConstraintSet_android_translationZ=25;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#elevation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12842,7 +12915,58 @@ public final class R {
      *
      * @attr name android:elevation
      */
-    public static final int ConstraintSet_android_elevation=22;
+    public static final int ConstraintSet_android_elevation=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#barrierAllowsGoneWidgets}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.allerates.appforyou:barrierAllowsGoneWidgets
+     */
+    public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.allerates.appforyou:barrierDirection
+     */
+    public static final int ConstraintSet_barrierDirection=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#chainUseRtl}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.allerates.appforyou:chainUseRtl
+     */
+    public static final int ConstraintSet_chainUseRtl=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#constraint_referenced_ids}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.allerates.appforyou:constraint_referenced_ids
+     */
+    public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12852,7 +12976,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constrainedHeight
      */
-    public static final int ConstraintSet_layout_constrainedHeight=23;
+    public static final int ConstraintSet_layout_constrainedHeight=31;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12862,7 +12986,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constrainedWidth
      */
-    public static final int ConstraintSet_layout_constrainedWidth=24;
+    public static final int ConstraintSet_layout_constrainedWidth=32;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12871,7 +12995,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintBaseline_creator
      */
-    public static final int ConstraintSet_layout_constraintBaseline_creator=25;
+    public static final int ConstraintSet_layout_constraintBaseline_creator=33;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12891,7 +13015,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintBaseline_toBaselineOf
      */
-    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12900,7 +13024,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintBottom_creator
      */
-    public static final int ConstraintSet_layout_constraintBottom_creator=27;
+    public static final int ConstraintSet_layout_constraintBottom_creator=35;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12920,7 +13044,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintBottom_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12940,7 +13064,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintBottom_toTopOf
      */
-    public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12952,7 +13076,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintCircle
      */
-    public static final int ConstraintSet_layout_constraintCircle=30;
+    public static final int ConstraintSet_layout_constraintCircle=38;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12961,7 +13085,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintCircleAngle
      */
-    public static final int ConstraintSet_layout_constraintCircleAngle=31;
+    public static final int ConstraintSet_layout_constraintCircleAngle=39;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12974,7 +13098,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintCircleRadius
      */
-    public static final int ConstraintSet_layout_constraintCircleRadius=32;
+    public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -12984,7 +13108,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintDimensionRatio
      */
-    public static final int ConstraintSet_layout_constraintDimensionRatio=33;
+    public static final int ConstraintSet_layout_constraintDimensionRatio=41;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13004,7 +13128,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintEnd_toEndOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13024,7 +13148,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintEnd_toStartOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13037,7 +13161,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintGuide_begin
      */
-    public static final int ConstraintSet_layout_constraintGuide_begin=36;
+    public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13050,7 +13174,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintGuide_end
      */
-    public static final int ConstraintSet_layout_constraintGuide_end=37;
+    public static final int ConstraintSet_layout_constraintGuide_end=45;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13059,7 +13183,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintGuide_percent
      */
-    public static final int ConstraintSet_layout_constraintGuide_percent=38;
+    public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13077,7 +13201,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintHeight_default
      */
-    public static final int ConstraintSet_layout_constraintHeight_default=39;
+    public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13098,7 +13222,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintHeight_max
      */
-    public static final int ConstraintSet_layout_constraintHeight_max=40;
+    public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13119,7 +13243,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintHeight_min
      */
-    public static final int ConstraintSet_layout_constraintHeight_min=41;
+    public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13128,7 +13252,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintHeight_percent
      */
-    public static final int ConstraintSet_layout_constraintHeight_percent=42;
+    public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13137,7 +13261,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintHorizontal_bias
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13155,7 +13279,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintHorizontal_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13164,7 +13288,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintHorizontal_weight
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13173,7 +13297,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintLeft_creator
      */
-    public static final int ConstraintSet_layout_constraintLeft_creator=46;
+    public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13193,7 +13317,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintLeft_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13213,7 +13337,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintLeft_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13222,7 +13346,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintRight_creator
      */
-    public static final int ConstraintSet_layout_constraintRight_creator=49;
+    public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13242,7 +13366,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintRight_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13262,7 +13386,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintRight_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13282,7 +13406,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintStart_toEndOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13302,7 +13426,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintStart_toStartOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13311,7 +13435,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintTop_creator
      */
-    public static final int ConstraintSet_layout_constraintTop_creator=54;
+    public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13331,7 +13455,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintTop_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13351,7 +13475,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintTop_toTopOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13360,7 +13484,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintVertical_bias
      */
-    public static final int ConstraintSet_layout_constraintVertical_bias=57;
+    public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13378,7 +13502,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintVertical_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13387,7 +13511,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintVertical_weight
      */
-    public static final int ConstraintSet_layout_constraintVertical_weight=59;
+    public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13405,7 +13529,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintWidth_default
      */
-    public static final int ConstraintSet_layout_constraintWidth_default=60;
+    public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13426,7 +13550,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintWidth_max
      */
-    public static final int ConstraintSet_layout_constraintWidth_max=61;
+    public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13447,7 +13571,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintWidth_min
      */
-    public static final int ConstraintSet_layout_constraintWidth_min=62;
+    public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13456,7 +13580,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_constraintWidth_percent
      */
-    public static final int ConstraintSet_layout_constraintWidth_percent=63;
+    public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13469,7 +13593,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_editor_absoluteX
      */
-    public static final int ConstraintSet_layout_editor_absoluteX=64;
+    public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13482,7 +13606,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_editor_absoluteY
      */
-    public static final int ConstraintSet_layout_editor_absoluteY=65;
+    public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13495,7 +13619,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_goneMarginBottom
      */
-    public static final int ConstraintSet_layout_goneMarginBottom=66;
+    public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13508,7 +13632,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_goneMarginEnd
      */
-    public static final int ConstraintSet_layout_goneMarginEnd=67;
+    public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13521,7 +13645,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_goneMarginLeft
      */
-    public static final int ConstraintSet_layout_goneMarginLeft=68;
+    public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13534,7 +13658,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_goneMarginRight
      */
-    public static final int ConstraintSet_layout_goneMarginRight=69;
+    public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13547,7 +13671,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_goneMarginStart
      */
-    public static final int ConstraintSet_layout_goneMarginStart=70;
+    public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
      * <p>This symbol is the offset where the {@link com.allerates.appforyou.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -13560,7 +13684,7 @@ public final class R {
      *
      * @attr name com.allerates.appforyou:layout_goneMarginTop
      */
-    public static final int ConstraintSet_layout_goneMarginTop=71;
+    public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
